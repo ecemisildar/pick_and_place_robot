@@ -1,9 +1,17 @@
 # **Research_track_assignment_1**
 ###### Python Simulator Robot
 
+
+
 ## **Project Description** 
 
 The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points.  
+
+<div align="center">
+<video src="https://user-images.githubusercontent.com/51851879/200179212-cfd08772-8069-420a-a3cc-52b33b89f074.mp4" width=400/>
+<div/>
+
+###### **X4 speed video**
 
 ## **Algorithm**
 
@@ -34,3 +42,6 @@ The *append()* command is also used to define the targeted tokens and not mix th
 
 * Instead of choosing the turning angle arbitrarily, it can be calculated using robot vision. For example, if the angle between the robot and the obstacle is calculated, the robot can turn to the other side. Also, it can be used for drive commands, which are arbitrary, too. So it can update its speed for every iteration adaptively.
 * Also, obstacle avoidance when the robot goes to the silver object can be added. 
+
+
+
