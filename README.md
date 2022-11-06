@@ -8,13 +8,24 @@
 The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points. 
 
 
+
+## **Installing and running**
+
+The simulator requires a Python 2.7 installation, the [pygame](https://www.pygame.org/news) library, [PyPyBox2D](https://pypi.org/project/pypybox2d/2.1-r331/), and [PyYAML](https://pypi.org/project/PyYAML/).
+
+Pygame, unfortunately, can be tricky (though not impossible) to install in virtual environments. If you are using ```pip```, you might try 
+```pip install hg+https://bitbucket.org/pygame/pygame```, or you could use your operating system's package manager. Windows users could use [Portable Python](https://portablepython.com/). PyPyBox2D and PyYAML are more forgiving, and should install just fine using ```pip``` or ```easy_install```.
+
+* The main code is written inside the file named assignment.py. 
+* In order to run the project the command below should be written in the terminal.
+```
+python2 run.py assignment.py
+```
+
+
 ## **Algorithm**
 
-* The main code is written inside the assignment.py. 
-* In order to run the project "python2 run.py assignment.py" command should be written in the terminal.
-
-
-THe algorithm of the code is explained using the flowchart below:
+The algorithm of the code is explained using the flowchart below:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/51851879/199999145-ff04b822-7948-423d-b552-cf03cf22fec1.jpg">
