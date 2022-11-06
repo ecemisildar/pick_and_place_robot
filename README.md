@@ -3,7 +3,7 @@
 
 ## **Project Description** 
 
-The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton.  
+The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points.  
 
 ## **Algorithm**
 
@@ -30,3 +30,7 @@ Also, the *see()* function is used to not crash to the other silver tokens on th
 
 The *append()* command is also used to define the targeted tokens and not mix the token that is already paired and not touched before. It gives the opportunity to decide which type of token is needed to be looked for. 
 
+## **Possible Improvements**
+
+* Instead of choosing the turning angle arbitrarily, it can be calculated using robot vision. For example, if the angle between the robot and the obstacle is calculated, the robot can turn to the other side. Also, it can be used for drive commands, which are arbitrary, too. So it can update its speed for every iteration adaptively.
+* Also, obstacle avoidance when the robot goes to the silver object can be added. 
