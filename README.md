@@ -7,18 +7,14 @@
 
 The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points.  
 
-<div align="center">
-<video src="https://user-images.githubusercontent.com/51851879/200179212-cfd08772-8069-420a-a3cc-52b33b89f074.mp4" width=400/>
-<div/>
-
-###### **X4 speed video**
 
 ## **Algorithm**
 
 THe algorithm of the code is explained using the flowchart below:
 
-![flowchart](https://user-images.githubusercontent.com/51851879/199999145-ff04b822-7948-423d-b552-cf03cf22fec1.jpg)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/51851879/199999145-ff04b822-7948-423d-b552-cf03cf22fec1.jpg">
+</p>
 
 
 First, the robot checks the length of the token array. This array contains the gold and silver tokens that are targeted. For example, if the robot keeps a silver token and releases it next to a gold token, the offset number of these two tokens is kept in the token array. And this main loop continues until all tokens are held in this array. 
@@ -44,4 +40,7 @@ The *append()* command is also used to define the targeted tokens and not mix th
 * Also, obstacle avoidance when the robot goes to the silver object can be added. 
 
 
+###### **X4 speed video**
 
+<div align="center">
+<video src="https://user-images.githubusercontent.com/51851879/200179212-cfd08772-8069-420a-a3cc-52b33b89f074.mp4" width=400/>
