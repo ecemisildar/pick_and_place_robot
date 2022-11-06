@@ -5,10 +5,14 @@
 
 ## **Project Description** 
 
-The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points.  
+The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points. 
 
 
 ## **Algorithm**
+
+*The main code is written inside the assignment.py. 
+*In order to run the project "python2 run.py assignment.py" command should be written in the terminal.
+
 
 THe algorithm of the code is explained using the flowchart below:
 
