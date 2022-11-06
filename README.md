@@ -10,8 +10,8 @@ The aim of this project is to pick and move all the silver tokens and release th
 
 ## **Algorithm**
 
-*The main code is written inside the assignment.py. 
-*In order to run the project "python2 run.py assignment.py" command should be written in the terminal.
+* The main code is written inside the assignment.py. 
+* In order to run the project "python2 run.py assignment.py" command should be written in the terminal.
 
 
 THe algorithm of the code is explained using the flowchart below:
