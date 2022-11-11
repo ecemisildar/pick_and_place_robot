@@ -1,15 +1,15 @@
-# **Research_track_assignment_1**
-###### Python Simulator Robot
+<h2>**Research_track_assignment_1**</h2>
+
+## Python Simulator Robot
 
 
-
-## **Project Description** 
+### **Project Description** 
 
 The aim of this project is to pick and move all the silver tokens and release them next to the golden token. The robot also understands that the task is completed when all the tokens are in pairs. Code is written in pyhton. The initial point of the robot is not important, and this code can be applied to all initial points. 
 
 
 
-## **Installing and running**
+### **Installing and running**
 
 The simulator requires a Python 2.7 installation, the [pygame](https://www.pygame.org/news) library, [PyPyBox2D](https://pypi.org/project/pypybox2d/2.1-r331/), and [PyYAML](https://pypi.org/project/PyYAML/).
 
@@ -23,7 +23,7 @@ python2 run.py assignment.py
 ```
 
 
-## **Algorithm**
+### **Algorithm**
 
 The algorithm of the code is explained using the flowchart below:
 
@@ -38,7 +38,7 @@ The second step depends on the length of this array. If the length is an even nu
 
 The third step depends on the type of the token. If the token is silver it goes next to it, adds its offset value to the array then grabs it. Then, it goes back to the starting point of the loop. If the token is a gold one, there is an extra control not to drag along any other silver tokens on their way. If there is another silver token on the way, the robot makes a maneuver to skip this object, then it continues its own way. When the robot brings the silver token to the golden one, it adds the offset number of this gold token to the token array, then releases the silver token next to the gold one and goes back to the starting point of the loop. This loop continues until all the tokens are targeted, which means the length of the token array is equal to 12.
 
-## **Robot Vision**
+### **Robot Vision**
 
 Robot vision is used both for indicating the color type of the tokens and also for their sizes and offset values. The size of the token that is held is important when it goes toward the golden token to release it next to the golden token. In order to reach the size and offset values, the commands below are used: 
 
@@ -49,13 +49,13 @@ Also, the *see()* function is used to not crash to the other silver tokens on th
 
 The *append()* command is also used to define the targeted tokens and not mix the token that is already paired and not touched before. It gives the opportunity to decide which type of token is needed to be looked for. 
 
-## **Possible Improvements**
+### **Possible Improvements**
 
 * Instead of choosing the turning angle arbitrarily, it can be calculated using robot vision. For example, if the angle between the robot and the obstacle is calculated, the robot can turn to the other side. Also, it can be used for drive commands, which are arbitrary, too. So it can update its speed for every iteration adaptively.
 * Also, obstacle avoidance when the robot goes to the silver object can be added. 
 
 
-###### **X4 speed video**
+##### **X4 speed video**
 
 <div align="center">
 <video src="https://user-images.githubusercontent.com/51851879/200179212-cfd08772-8069-420a-a3cc-52b33b89f074.mp4" width=400/>
